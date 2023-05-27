@@ -1,0 +1,24 @@
+.not-found {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+.not-found span {
+  color: white;
+  font-size: 60px;
+}
+.not-found button {
+  background-color: rgb(15, 113, 255);
+  border: none;
+  outline: transparent;
+  height: 40px;
+  width: 150px;
+}
+.not-found button a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}

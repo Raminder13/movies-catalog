@@ -1,0 +1,13 @@
+.movie {
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.movie img {
+  width: 100%;
+  border-radius: 5px;
+}
+.movie div {
+  display: flex;
+  justify-content: space-between;
+}

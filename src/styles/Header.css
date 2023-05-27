@@ -1,0 +1,14 @@
+.header {
+  height: 56px;
+  padding: 10px;
+}
+.header a {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #e03131;
+}

@@ -1,0 +1,51 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog .top {
+  display: flex;
+  align-content: flex-end;
+}
+
+.catalog .top select {
+  height: 30px;
+  width: 125px;
+  color: white;
+  color: rgb(15, 113, 255);
+  margin-left: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.catalog .top button {
+  height: 30px;
+  width: 125px;
+  color: white;
+  background-color: rgb(95, 81, 222);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.catalog .top button a {
+  color: white;
+  text-decoration: none;
+}
+
+.catalog .movies {
+  flex-wrap: wrap;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px 20px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
